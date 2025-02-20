@@ -1,8 +1,9 @@
+# Air Quality Data in India (2015 - 2020)
+
 **Problem Statement:** Air pollution significantly impacts human health and the environment. The Air Quality Index (AQI) is a standardized method to measure and categorize air pollution levels. This problem requires analyzing air pollution data collected from various cities to compute AQI, categorize pollution severity using AQI buckets, and perform exploratory data analysis to derive meaningful insights.
 
 The dataset contains air pollution metrics such as PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, and Xylene, recorded across different cities and dates.
 
-**Tasks:**
 
 1. **AQI Calculation:**
 
@@ -97,18 +98,18 @@ The dataset contains air pollution metrics such as PM2.5, PM10, NO, NO2, NOx, NH
 5. **Implementation Using Pandas, NumPy:**
 
    - AQI calculations and analysis will be implemented using **Pandas** and **NumPy**.
-   - Output will be written in **CSV files only**.
-   - Use **Matplotlib/Seaborn** for data visualization.
-   - Use **datetime** module for time-based analysis.
+   - Output will be written in **CSV files**.
 
 **Questions:**
 
-- **Location-Based Analysis:**
-  - Identify the top 5 most polluted cities based on PM2.5 levels.
-  - Identify the top 5 cleanest cities based on PM2.5 levels.
-- **Time-Based Analysis:**
-  - Find the month with the highest average air pollution levels globally.
-  - Identify seasonal trends in air pollution levels.
-  - Find the hour of the day when air pollution is highest.
+1. Identify the top 5 most polluted cities based on PM2.5 levels.
+2. Identify the top 5 cleanest cities based on PM2.5 levels.
+3. Find the month with the highest average air pollution levels.
+4. How does air quality vary across seasons (Winter, Summer, Monsoon, Post-Monsoon)?
+5. Are pollution levels increasing or decreasing over time?
+6. Which cities have shown the most improvement in air quality over 5 years?
+7. Which cities have experienced worsening air pollution?
+8. Identify the top 10 worst pollution days in the dataset.
 
-This problem provides an opportunity to understand air pollution trends and build data-driven solutions for pollution control.
+
+**Problem Reference: https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india**
