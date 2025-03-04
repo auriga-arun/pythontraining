@@ -10,7 +10,7 @@ Imagine a system where users don’t have to remember passwords. Instead, they e
 
  **Expire after a short time (e.g., 10 minutes)**  
  **Be valid for one-time use only** 
- **IP Restriction (create a checkbox, if checked login will work from user's IP only)
+ **IP Restriction (create a checkbox, if checked login will work from user's IP only)**
  **Be secure to prevent unauthorized access**
 
 Your task is to build this authentication flow in Django while ensuring security best practices.
