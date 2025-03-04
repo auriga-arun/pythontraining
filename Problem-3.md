@@ -17,7 +17,7 @@ Your task is to build this authentication flow in Django while ensuring security
 
 * * *
 
-### **Requirements**
+### **Task Steps**
 
 1 **User Requests Login**
 
